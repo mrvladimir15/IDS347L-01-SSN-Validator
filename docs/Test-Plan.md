@@ -26,13 +26,12 @@ For this opportunity, we will be using the Pytest framework to do automated unit
 ## Test cases
 | Code         | Input     | Expected output |
 |--------------|-----------|------------|
-|TC1|456-98-8974|The SSN is valid
-|TC2|000-89-7321|The SSN is not valid
-|TC3|456-78932-1|The SSN is not valid
-|TC4|789546-987456-798|The SSN is too long.
-|TC5|666-88-8999|The SSN is not valid
-|TC6|906-88-8999|The SSN is not valid
-|TC7|667-00-8999|The SSN is not valid
-|TC8|766-881-8999|The SSN is valid
-|TC9|676-44-8999|The SSN is valid
-|TC10|676-44-0000|The SSN is not valid
+|TC1|456-98-8974|True
+|TC2|000-89-7321|False
+|TC3|456-78932-1|False
+|TC4|676-44-0000|False
+|TC5|666-88-8999|False
+|TC6|906-88-8999|False
+|TC7|667-00-8999|False
+|TC8|766-81-8999|True
+|TC9|676-44-8999|True
