@@ -14,7 +14,7 @@ This application has, as general purpose, validate whether a Social Security Num
  * [Test Plan](https://github.com/mrvladimir15/IDS347L-01-SSN-Validator/blob/main/docs/Test-Plan.md). Redirects to the application's test plan, a document that indicates how will be the path to test the whole application and confirm that it accomplishes the given requirements.
 
 ## Required software
-To run the application and execute the test cases using PyTest there is some software required:  
+To run the application and execute the test cases using PyTest there is some software required. Follow these steps to download the required software in Ubuntu:  
 ### PYTHON 3.9:
 1. Open the terminal. 
 2. In the terminal, type:
