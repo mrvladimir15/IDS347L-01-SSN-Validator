@@ -1,5 +1,13 @@
 # SSN Validator Test Plan
 
+## Requirements
+The application must validate that the Social Security Number accomplishes with these points:
+* It should have 9 digits.
+* It should be divided into 3 parts by hyphen (-).  
+    * The first part should have 3 digits and should not be 000, 666, or between 900 and 999.
+    * The second part should have 2 digits and it should be from 01 to 99.
+    * The third part should have 4 digits and it should be from 0001 to 9999.
+    
 ## Acceptance criteria:
 * The application shows the user a SSN valid criteria.
 * The application tells the user if the number given exceed 11 characters (including separators {-}).
